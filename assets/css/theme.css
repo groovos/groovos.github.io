@@ -394,7 +394,18 @@ span#fork {
     text-align: center; }
   .roverz_img {
     margin: 0 auto;
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+  .SpacesHeroSectionHome .bannerimg {
+    display: none; }
+  .play-appstore-cont {
+    justify-content: center; }
+  .SpacesHeroSectionHome.main-banner h1 {
+    text-align: center; }
+  #document-sec, #task-sec, #messaging-sec, #screenshot-sec, #getapp {
+    padding: 0 50px;
+    text-align: center; }
+  #screenshot-sec img {
+    margin-bottom: 50px; } }
 
 @media only screen and (max-width: 480px) {
   #school-page .btn-lg, #school-page .btn-group-lg > .btn {
@@ -407,14 +418,17 @@ span#fork {
   .section-prefooter .list-social-links i {
     font-size: 14px;
     line-height: 12px; }
-  .main-banner h1 {
+  .SpacesHeroSectionHome.main-banner h1 {
     font-size: 200% !important; }
   .h1 {
     font-size: 240% !important; }
   .section-prefooter ul li {
     margin-bottom: 15px; }
   #messaging-page ul.list-group {
-    text-align: left; } }
+    text-align: left; }
+  #document-sec, #task-sec, #messaging-sec, #screenshot-sec, #getapp {
+    padding: 0 20;
+    text-align: center; } }
 
 /* Responsive styles ends here */
 /* purgecss end ignore */
