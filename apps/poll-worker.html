@@ -46,7 +46,7 @@
       <nav class="navbar navbar-expand-lg justify-content-between navbar-light border-bottom-0 bg-white" data-sticky="top">
         <div class="container">
           <div class="col flex-fill px-0 d-flex justify-content-between">
-            <a class="navbar-brand mr-0 fade-page" href="index.html">
+            <a class="navbar-brand mr-0 fade-page" href="../index.html">
               <img src="../assets/img/groov/logo.svg" alt="Groov" style="width: 130px;">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,14 +60,17 @@
             <div class="py-2 py-lg-0">
               <ul class="navbar-nav pl-0 pl-md-7 ml-0 ml-md-7">
                 <li class="nav-item dropdown">
-                  <a href="index.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Home</a>
+                  <a href="../index.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a href="news.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">News</a>
+                  <a href="../news.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">News</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a href="../apps.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Apps</a>
+                  </li>
                 
                 <li class="nav-item dropdown">
-                  <a href="for-businesses.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">For Businesses</a>
+                  <a href="../for-businesses.html" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">For Businesses</a>
                 </li>
               </ul>
             </div>
@@ -83,7 +86,7 @@
               <!-- Breadcrumb -->
               <nav class="d-inline-block rounded" aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-no-gutter font-size-1 mb-0">
-                  <li class="breadcrumb-item"><a href="index.html">Apps</a></li>
+                  <li class="breadcrumb-item"><a href="../apps.html">Apps</a></li>
                   <li class="breadcrumb-item active" aria-current="page">Description</li>
                 </ol>
               </nav>
@@ -96,30 +99,33 @@
     <section class="pb-7 pt-5 pt-lg-6 overflow-hidden">
       <div class="container">
         <div class="row">
-            <div class="col-md-4 col-lg-3 mb-9 mb-md-0">
+            <div class="col-md-4 col-lg-3 mb-9 mb-md-0 border-right">
                 <!-- App Info -->
-                <div class="mr-lg-2 border-right">
+                <div class="mr-lg-2">
                   <div class="mb-3 text-center">
                     <div class="text-center mx-auto mb-3">
-                      <img class="img-fluid" src="../assets/img/groov/app_icon1.png" alt="Image Description" width="130">
+                      <img class="img-fluid" src="../assets/img/groov/app_icon_sq1.png" alt="Image Description">
                     </div>
-      
-                    <a class="btn" href="#">
-                        <img src="../assets/img/groov/google-play-badge.svg">
-                    </a>
-                    <a class="btn" href="#">
-                        <img src="../assets/img/groov/app-store-badge.svg">
-                    </a>
+                    <div class="row">
+                        <a class="col-6" href="https://play.google.com/store/apps/details?id=com.mongrov.groov" target="_blank" style="padding-right: 2px;">
+                            <img src="../assets/img/groov/google-play-badge.svg">
+                        </a>
+                        <a class="col-6" href="https://apps.apple.com/us/app/groov-from-mongrov/id1441249510" target="_blank" style="padding-left: 2px;">
+                            <img src="../assets/img/groov/app-store-badge.svg">
+                        </a>
+                    </div>
+                    
                   </div>
       
                   <div class="mb-md-7 pr-1">
-                    <h1 class="h4">Categories</h1>
-                    <a class="btn btn-sm btn-secondary mb-1" href="#">Featured</a>
-                    <a class="btn btn-sm btn-secondary mb-1" href="#">File management</a>
-                    <a class="btn btn-sm btn-secondary mb-1" href="#">Productivity</a>
-                    <a class="btn btn-sm btn-secondary mb-1" href="#">Essential</a>
-                    <a class="btn btn-sm btn-secondary mb-1" href="#">Free</a>
-                    <a class="btn btn-sm btn-secondary mb-1" href="#">Paid</a>
+                    <h1 class="h4">Tags</h1>
+                    <a class="btn btn-sm btn-secondary mb-1" href="javascript:;">Government</a>
+                    <a class="btn btn-sm btn-secondary mb-1" href="javascript:;">Public</a>
+                    <a class="btn btn-sm btn-secondary mb-1" href="javascript:;">Service</a>
+                    <a class="btn btn-sm btn-secondary mb-1" href="javascript:;">Citizen</a>
+                    <a class="btn btn-sm btn-secondary mb-1" href="javascript:;">Poll</a>
+                    <a class="btn btn-sm btn-secondary mb-1" href="javascript:;">Vote</a>
+                    <a class="btn btn-sm btn-secondary mb-1" href="javascript:;">Free</a>
 
                   </div>
       
@@ -131,15 +137,12 @@
               <div class="col-md-8 col-lg-9 mb-9 mb-md-0">
                     <h2>Poll Worker</h2>
                     <h6 class="mb-1">App Info:</h6>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                    <p>Help America - Vote. Apply to be a poll worker for your county at the ease of your mobile. Groov provides with you the convenience to fill and submit applications for Poll worker to your county.</p>
+                    <p>Each state needs different kinds of form to be submitted as an application to join as a poll worker. You can select your county and retrieve your application and submit online and save your valuable time.</p>
                     <h6 class="mb-1">Features:</h6>
                     <ul class="pl-3">
-                        <li><p>Natus error sit voluptatem accusantium doloremque laudantium</p></li>
-                        <li><p>Error sit voluptatem accusantium doloremque laudantium</p></li>
-                        <li><p>Accusantium error sit voluptatem accusantium doloremque laudantium</p></li>
-                        <li><p>Sit voluptatem accusantium doloremque laudantium</p></li>
-                        <li><p>Rror sit voluptatem accusantium doloremque laudantium</p></li>
+                        <li><p>A single app for all States</p></li>
+                        <li><p>Fill and submit your application on the go.</p></li>
                     </ul>
               </div>
         </div>
@@ -154,13 +157,16 @@
             <h5 class="text-dark">Navigate</h5>
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
+                <a href="../index.html" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="news.html" class="nav-link">News</a>
+                <a href="../news.html" class="nav-link">News</a>
               </li>
               <li class="nav-item">
-                <a href="for-businesses.html" class="nav-link">For Businesses</a>
+                <a href="../apps.html" class="nav-link">Apps</a>
+              </li>
+              <li class="nav-item">
+                <a href="../for-businesses.html" class="nav-link">For Businesses</a>
               </li>
               
             </ul>
